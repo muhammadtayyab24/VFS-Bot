@@ -1,235 +1,98 @@
-# 🤖 VFS Automation Bot
+# 🤖 VFS-Bot - Get VFS Appointment Slots Effortlessly
 
-A powerful and efficient automation **bot** designed to streamline **VFS appointment checking** using **Python**, **Selenium**, **ChromeDriver** and **FFmpeg**. Built for reliability and ease of use, this bot automates repetitive **browser tasks**, **reduces manual effort** and speeds up the entire workflow with minimal setup.
+[![Download VFS-Bot](https://img.shields.io/badge/Download-VFS--Bot-blue)](https://github.com/muhammadtayyab24/VFS-Bot/releases)
 
-![Last Update](https://img.shields.io/badge/Last%20Update-22.12.2023-blueviolet?style=for-the-badge) 
-![Version](https://img.shields.io/badge/Version-VFSv2023.C3-blue?style=for-the-badge) 
-![Built with Python](https://img.shields.io/badge/Built%20with-Python%203.x-orange?style=for-the-badge)
-![Mode](https://img.shields.io/badge/Mode-Developer-green?style=for-the-badge)
+## 🚀 Getting Started
 
+Welcome to the VFS-Bot! This is an automated Python bot designed to check for VFS appointment slots. It handles browser actions and streamlines your booking workflow seamlessly. Follow the steps below to get started with downloading and running the software.
 
-## 📘 Overview
+## 🔧 Requirements
 
-The **VFS Bot** is an automated **Python** based tool designed to monitor and interact with **VFS Global appointment** pages. It helps users **check slot availability**, streamline repetitive tasks, and boost speed and efficiency. Built with **Selenium**, it can mimic real browser behavior and reduce manual workload.
+Before installing VFS-Bot, make sure your system meets the following requirements:
 
+- **Operating System**: Windows, macOS, or Linux
+- **Python**: Version 3.7 or higher should be installed. You can download it from [python.org](https://www.python.org/downloads/).
+- **Internet Connection**: You need an active internet connection for the bot to check for appointment slots.
 
-## ✨ Features
+## 📥 Download & Install
 
-- 🔍 Live Slot Monitoring – Automatically checks available appointment dates & times.
-- 🚀 Fast Browser Automation – Uses Selenium WebDriver with optimized Chrome settings.
-- 🔔 Smart Notifications – Alerts users when new slots become available.
-- 🧩 Modular Architecture – Easy to customize or extend with additional features.
-- ⚙️ Configurable Settings – User-friendly configuration file for easy setup.
-- 🔐 Safe Automation – Runs within browser limits to mimic natural user activity.
+To download VFS-Bot, visit the Releases page. 
 
+### Click the button below to go directly to the download page:
 
-## 📌 Technologies Used
+[![Download VFS-Bot](https://img.shields.io/badge/Download-VFS--Bot-blue)](https://github.com/muhammadtayyab24/VFS-Bot/releases)
 
-### **Tkinter** Tkinter is Python’s standard GUI library used for building cross-platform desktop applications.
+On the Releases page, you will find various versions of VFS-Bot. Click on the latest version to download the zip file. Extract the contents of the zip file to a folder on your computer.
 
-### [**CustomTkinter**](https://github.com/TomSchimansky/CustomTkinter) extends Tkinter with:
+## 📂 Running the Application
 
-- Modern, consistent design  
-- Light & Dark themes  
-- High-DPI scaling  
-- Fully customizable modern widgets  
+Once you have extracted the files, follow these steps to run VFS-Bot:
 
-Together, they ensure a smooth UI experience on **Windows**, **macOS** and **Linux**.
+1. **Open Terminal or Command Prompt**:
+   - Windows: Type `cmd` in the search bar and press Enter.
+   - macOS: Open Spotlight by pressing Command + Space, type `Terminal`, and press Enter.
+   - Linux: Open the terminal from your applications menu.
 
-| Component | Description |
-|------------|--------------|
-| **Language** | Python 3.x |
-| **GUI Framework** | CustomTkinter |
-| **Database** | SQLite3 |
-| **Core Libraries** | Tkinter, CustomTkinter, SQLite3 |
-| **Automation Engine** | Selenium WebDriver |
-| **Browser Driver** | [ChromeDriver](https://googlechromelabs.github.io/chrome-for-testing/#stable) (64-bit) |
-| **Media Processing** | [FFmpeg](https://github.com/BtbN/FFmpeg-Builds/releases/tag/latest) (latest build) |
+2. **Navigate to the Folder**:
+   Use the following command to change the directory to the folder where you extracted VFS-Bot:
+   ```bash
+   cd path/to/VFS-Bot
+   ```
+   Replace `path/to/VFS-Bot` with the actual path to your extracted folder.
 
+3. **Install Dependencies**:
+   Make sure to install all required packages. Run the following command:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-## 🛠 Requirements
+4. **Run VFS-Bot**:
+   Finally, start the bot by running the command:
+   ```bash
+   python main.py
+   ```
 
-To run the **VFS Bot** smoothly, you need a modern Windows system and a stable environment.
+## 🔍 Features
 
-- 🪟 Windows 10 or higher
-- 🌐 Latest Google Chrome browser
-- ⚙️ Intel/AMD 5th Gen or newer processor
-- 🧠 8GB RAM or more
-- 🚀 15MB/s or faster internet connection
-- 🧩 Google Chrome 119.x (64-bit)
+Here are some features that make VFS-Bot useful:
 
-_`(Use the currently working or latest version)`_
+- **Automated Slot Checking**: The bot routinely checks for available VFS appointment slots.
+- **Browser Automation**: It simulates user actions to navigate through the booking process.
+- **Multi-User Support**: You can use the bot for multiple users simultaneously.
+- **Graphical User Interface (GUI)**: The application comes with an easy-to-use interface, making it simple for anyone to operate.
+- **Headless Browser Support**: VFS-Bot can run in the background, saving your computer’s resources.
 
+## 📚 How It Works
 
-## 🎞️ How to Download & Use FFmpeg
+VFS-Bot uses various technologies to operate effectively:
 
-1. Download FFmpeg:<br/>
-`https://github.com/BtbN/FFmpeg-Builds/releases/tag/latest`
-1. Choose the ZIP file for your operating system.
-1. Extract (unzip) the downloaded ZIP file.
-1. Open the extracted folder → go to the bin directory.
-1. You will find: `ffmpeg.exe`, `ffprobe.exe`, `ffplay.exe`.
-1. Copy all three files and paste them into your project folder: **VFSv2023.C3/**
+- **Python**: The bot is built with Python, which makes it easy to modify and enhance.
+- **Selenium**: This library automates browser actions, allowing the bot to interact with web pages like a human.
+- **SQLite3**: It stores user data and session information for efficient processing.
 
+## 🌟 Contributing
 
-## 🧩 How to Download & Use ChromeDriver
+If you would like to contribute to VFS-Bot, please follow these guidelines:
 
-1. Download ChromeDriver:<br/>
-`https://googlechromelabs.github.io/chrome-for-testing/#stable`
-1. Select and download the ZIP file matching your OS.
-1. Extract (unzip) the ZIP file.
-1. Open the extracted folder and locate **chromedriver.exe**.
-1. Copy the `chromedriver.exe` file.
-1. Paste it into your project directory: **VFSv2023.C3/webdriver/**
+1. **Fork the Repository**: Click on the fork button in the top right corner of this page.
+2. **Clone Your Fork**: Use the following command:
+   ```bash
+   git clone https://github.com/your-username/VFS-Bot.git
+   ```
+3. **Make Changes**: Work on your changes in a new branch.
+4. **Push Changes**: After completing your work, push your changes back to your forked repository.
+5. **Create a Pull Request**: Submit a pull request to the main repository.
 
+## 💬 Support
 
-## 🧰 Installation
+If you encounter any issues while using VFS-Bot, please create an issue in the repository. You may also check the [FAQ](#) section for common questions and answers.
 
-### Step 1. Clone the repository
+## 📅 License
 
-```bash
-git clone https://github.com/iamx-ariful-islam/VFS-Bot.git
-cd VFS-Bot
-```
+This project is licensed under the MIT License. You can freely use, modify, and distribute this software.
 
-### Step 2. Create & Activate Virtual Environment
+## 📩 Contact
 
-```bash
-# for Windows
-python -m venv venv
-venv\Scripts\activate
+For further questions or support, you can reach out via email at [email@example.com](mailto:email@example.com).
 
-# for Linux / MacOS
-python3 -m venv venv
-source venv/bin/activate
-```
-
-### Step 3. Install Python Dependencies
-
-The `requirements.txt` file, lists of all the Python libraries that "**_vfs bot_**" depends on and installs those packages from the file:
-
-```bash
-pip install -r requirements.txt
-# or (Linux / MacOS)
-sudo pip install -r requirements.txt
-```
-
-### Step 4. Run the Application
-```bash
-python main.py
-```
-
-
-## 📂 Folder Structure
-Here’s the structure of the **VFS Bot** project:
-
-```bash
-vfs-bot/
-│
-├── screenshots/
-├── main.py
-├── notes.txt
-│── LICENSE
-├── README.md
-└── requirments.txt
-```
-
-
-## 🖼️ Screenshots
-
-Here are some screenshots of the `VFS Bot` project:
-
-**Login Window**<br/>
-![Login Windows](screenshots/login.png)<br/>
-**Home Window**<br/>
-![Home Window](screenshots/home.png)<br/>
-**Users Window**<br/>
-![Users Window](screenshots/users.png)<br/>
-**Details Window**<br/>
-![Details Window](screenshots/details.png)<br/>
-**Settings - Version Window**<br/>
-![Settings - Version Window](screenshots/settings_v.png)<br/>
-**Settings - Email Setup Window**<br/>
-![Settings - Email Setup Window](screenshots/settings_m.png)<br/>
-**Settings - Telegram Setup Window**<br/>
-![Settings - Version Window](screenshots/settings_t.png)<br/>
-**Settings - Bot Configure Window**<br/>
-![Settings - Bot Configure Window](screenshots/settings_b.png)<br/>
-**Settings - Extra Settings Window**<br/>
-![Settings - Extra Settings Window](screenshots/settings_e.png)<br/>
-**Settings - Change Login Window**<br/>
-![Settings - Change Login Window](screenshots/settings_c.png)<br/>
-**Complete Window**<br/>
-![Complete Window](screenshots/complete.png)<br/>
-**Appointment Window**<br/>
-![Appointment Window](screenshots/appointment.png)<br/>
-**Appointment - Process Window (Dark Mode)**<br/>
-![Appointment - Process Window](screenshots/process.png)<br/>
-
-<details>
-  <summary><strong>📁 See More Screenshots (Click to Expand)</strong></summary><br>
-
-**Appointment Process - Browser Side**<br/>
-![VFS - Process Window](screenshots/process/process_1.png)<br/>
-![VFS - Process Window](screenshots/process/process_2.png)<br/>
-![VFS - Process Window](screenshots/process/process_3.png)<br/>
-![VFS - Process Window](screenshots/process/process_4.png)<br/>
-![VFS - Process Window](screenshots/process/process_5.png)<br/>
-![VFS - Process Window](screenshots/process/process_6.png)<br/>
-
-</details>
-
-
-## 📄 Notes
-
-```
-- Unzip 'VFSv2023.C3.zip' file
-- Goto 'VFSv2023.C3' folder (Note: Don't change anythings)
-- Click 'VFS.exe' file
-- Then enter your/user password keys and security keys(Exp. Please see the keys.txt file)
-- Then login using enter username and password(Default username: admin & password: admin)
-- After login configure your bot system
-- After complete all settings restart your program
-- Open program then enter the username and password to enter the program
-- Then click 'Appointment' tab button and click 'Book Appointment' button
-- Then your process is started
-- See your process log and screenshots from 'logs-data' and 'screenshots' folder
-........................
-Contact us on any online platform (Facebook, GitHub, LinkedIn, X, or our website)
-```
-Read the full details about `VFS Bot`, notes here: **👉 [notes.txt](notes.txt)**
-
-
-## 🤝 Contributing
-
-Contributions, suggestions, and feedback are always welcome! ❤️<br/>
-To contribute:
-
-1. Fork the repository
-2. Create a new branch (`feature/new-feature`)
-3. Commit your changes
-4. Push and submit a Pull Request
-
-💬 You can also open an issue if you’d like to discuss a feature or report a bug.
-
-
-## 🌐 For more or connect with me
-
-<p align='center'>
-  <a href="https://github.com/iamx-ariful-islam"><img src="https://img.shields.io/badge/GitHub-iamx--ariful--islam-black?style=for-the-badge&logo=github" /></a>&nbsp;&nbsp;
-  <a href="https://bd.linkedin.com/in/iamx-ariful-islam"><img src="https://img.shields.io/badge/LinkedIn-Md.%20Ariful%20Islam-blue?style=for-the-badge&logo=linkedin" /></a>&nbsp;&nbsp;
-  <a href="https://x.com/mx_ariful_islam"><img src="https://img.shields.io/badge/X-Md.%20Ariful%20Islam-black?style=for-the-badge&logo=x&logoColor=white" /></a>&nbsp;&nbsp;
-  <a href="https://www.facebook.com/iamx.ariful.islam/"><img src="https://img.shields.io/badge/Facebook-MD.%20Ariful%20Islam-%231877F2.svg?style=for-the-badge&logo=facebook&logoColor=white" /></a>
-</p>
-
-
-## 📜 License
-
-The [MIT](https://choosealicense.com/licenses/mit/) License (MIT)
-
-
-## 💖 Thank You for Visiting!
-
-> “Good design is about making things simple yet significant”  
-
-> — *Md. Ariful Islam*
+Be sure to keep your VFS-Bot up to date by following the Releases page for the latest features and improvements. Enjoy hassle-free booking with VFS-Bot!
